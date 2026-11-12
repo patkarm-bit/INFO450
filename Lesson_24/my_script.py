@@ -8,7 +8,6 @@ st.title("Advertising Effectiveness Manas")
 
 st.sidebar.header("Filters")
 x_var=st.selectbox("X axis",["TV","radio","newspaper"])
-y_var=st.selectbox("Y axis",["TV","radio","newspaper])
 
 #show scatterplot
                             fig= px.scatter(df, x=x_var, y='sales
